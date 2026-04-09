@@ -32,9 +32,9 @@ I conducted a residual analysis to validate the model's assumptions. The resulti
 ## Usage
 The final model is accessible via a streamlined inference function. Note that area_type was pruned from the final model after a sensitivity audit revealed it had a negligible impact on prediction accuracy compared to location and sqft. 
 
-Example Usage
+#### Example Usage:
 predict_price(location='Indira Nagar', sqft=1500, bath=3, bhk=3, balcony=2)
-### Output: Estimated Price in Lakhs
+##### Output: Estimated Price in Lakhs
 
 🧪 Technologies Used
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
